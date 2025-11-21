@@ -11,7 +11,7 @@ def split_before_uppercases(formula):
             elements_lst.append(formula[start:end])
             start = end
         end+=1  
-        
+     
     elements_lst.append(formula[start:])
     
     return elements_lst
